@@ -52,3 +52,59 @@ This creates a **clean Notion dashboard** where you can see all deadlines and op
 
 ## 📚 Workflow Architecture
 
+---
+
+## 📄 Notion Dashboard Structure
+| Field | Type | Description |
+|-------|------|-------------|
+| Subject | Title | Email subject |
+| From | Text | Sender name or email |
+| Category | Select | Submission / Opportunity / Promo |
+| Snippet | Text | Preview of the email body |
+| Received At | Date | When the mail arrived |
+| Gmail Link | URL | Opens the exact email in Gmail |
+
+---
+
+## ⚙️ Setup Instructions
+1. Create a Notion database  
+2. Create a new Zap in Zapier  
+3. Add Gmail trigger with search query:  
+4. Add AI classification step  
+5. Add Paths for each category  
+6. Add Gmail Label action inside each path  
+7. Add Notion “Create Database Item” action  
+8. Test & Activate
+
+---
+
+## 🎯 Why I Built This  
+As a college student, I often missed important assignment and internship emails because my inbox was flooded.  
+So I built a smart, automated solution to:
+- Reduce inbox noise  
+- Highlight important deadlines  
+- Track job/internship mails  
+- Stay consistent and organized  
+
+---
+
+## 🔍 Future Improvements
+- Telegram real-time notifications  
+- Weekly digest email  
+- Priority scoring model  
+- Google Sheets integration  
+- Add a UI dashboard  
+
+---
+
+## 👤 Author
+**Khushi Jha**  
+Automation Enthusiast | Student   
+
+---
+
+## 🤝 Contributions
+Pull requests, improvements, and suggestions are welcome!
+
+
+
